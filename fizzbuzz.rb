@@ -6,16 +6,13 @@ def fizzbuzz(int)
     puts "FizzBuzz"
     return  "FizzBuzz"
         
-  elsif int % 3 == 0
-    puts "Fizz"
-    return "Fizz"
-        
-  elsif int % 5 == 0
-    puts "Buzz"
-    return "Buzz"
-    
-        
-        
+    elsif int % 3 == 0
+      puts "Fizz"
+      return "Fizz"
+          
+    elsif int % 5 == 0
+      puts "Buzz"
+      return "Buzz"
   end
 end
-fizzbuzz(15)
+
