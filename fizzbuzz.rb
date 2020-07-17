@@ -11,7 +11,7 @@ def fizzbuzz(int)
         puts "Buzz"
         return "Buzz"
     
-       then if int % 3 == 10 && int % 5 == 10
+       then if (int % 3) && (int % 5) == 10
         puts "FizzBuzz"
         return  "FizzBuzz"
         
