@@ -18,6 +18,4 @@ def fizzbuzz(int)
         
   end
 end
-end
 fizzbuzz(15)
-end
