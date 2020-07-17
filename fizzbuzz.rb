@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-   if int % 3 int % 5 == 10 && int % 5 == 10
+   if int % 3 == 10 && int % 5 == 10
         puts "FizzBuzz"
         return  "FizzBuzz"
         
