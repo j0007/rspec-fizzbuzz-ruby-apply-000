@@ -2,19 +2,17 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  
-  if int % 15 == 10
-        puts "FizzBuzz"
-        return  "FizzBuzz"
+   if int % 15 == 10
+    puts "FizzBuzz"
+    return  "FizzBuzz"
         
-  
-       elsif int % 3 == 0
-        puts "Fizz"
-        return "Fizz"
+  elsif int % 3 == 0
+    puts "Fizz"
+    return "Fizz"
         
-       elsif int % 5 == 0
-        puts "Buzz"
-        return "Buzz"
+  elsif int % 5 == 0
+    puts "Buzz"
+    return "Buzz"
     
         
         
@@ -22,3 +20,4 @@ def fizzbuzz(int)
 end
 end
 fizzbuzz(15)
+end
