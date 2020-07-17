@@ -10,7 +10,7 @@ def fizzbuzz(int)
         puts "Buzz"
         return "Buzz"
     
-        if (int % 3) && (int % 5)  == 10
+        if (int % 3) && (int % 5) == 10
         puts "FizzBuzz"
         return  "FizzBuzz"
         
